@@ -1,0 +1,172 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #2f3035;
+    background-image: url(image/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.144);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 20px;
+    color: white;
+    letter-spacing: 2px;     
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #f4c10f;          /* màu vàng nhạt */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.maps {
+    padding-bottom: 100px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 26px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main a {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 24px;              /* TO hơn */
+    letter-spacing: 3px;          /* giãn chữ */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 40px;
+    transition: all 0.3s ease;
+}
+
+main a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/*menu*/
+
+.menu-page h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-list {
+    width: 70%;
+    margin: auto;
+}
+
+.menu-item {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding: 20px 0;
+}
+
+.menu-item h3 {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.menu-item span {
+    float: right;
+    font-size: 22px;
+    color: #f4c10f;
+}
+p {
+    font-size: 22px;          
+    line-height: 1.7;
+    color: white;
+}
+
+
+
+/* Order */
+.order-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.order-form input,
+.order-form select {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.order-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    background-color: #f4c10f;
+    border: none;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: #ffb703;
+}

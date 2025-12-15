@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Online - PaPa Steak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="image/imagelogo.png" width="170" height="170" alt="logo">
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="order.html" class="active">ORDER ONLINE</a>
+        <a href="voucher.html">GIFT VOUCHER</a>
+        <a href="catering.html">CATERING</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <main class="order">
+        <h1>Order Online</h1>
+
+        <form class="order-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select>
+                <option>Select Dish</option>
+                <option>Ribeye Steak</option>
+                <option>Tenderloin Steak</option>
+                <option>BBQ Steak</option>
+            </select>
+
+            <input type="number" placeholder="Quantity" min="1">
+
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+</div>
+
+</body>
+</html>
